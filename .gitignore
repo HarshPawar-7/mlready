@@ -2,8 +2,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 venv/
+.venv/
 .env
 dist/
 build/
 *.egg-info/
 test_run.py
+.pytest_cache/

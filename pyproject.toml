@@ -9,8 +9,19 @@ description = "An automated EDA and data cleaning pipeline for healthcare ML."
 authors = [{ name="Harsh" }]
 readme = "README.md"
 requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "pandas",
     "numpy",
-    "scikit-learn"
+    "scikit-learn",
+    "imbalanced-learn"
 ]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"

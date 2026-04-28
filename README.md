@@ -6,9 +6,9 @@ An automated Exploratory Data Analysis (EDA) and data cleaning pipeline designed
 Standard EDA tools give you numbers; `mlready` gives you clinical context. It automatically diagnoses severe class imbalances, flags biologically impossible missingness patterns, and executes a clean preprocessing recipe.
 
 ## Installation
-*(Coming soon to PyPI)*
-For now, clone the repository and run:
-`pip install .`
+```bash
+pip install mlready
+```
 
 ## Quick Start
 ```python
