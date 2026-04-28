@@ -7,7 +7,7 @@ class EDAReport:
         self.warnings = warnings
 
     def print_summary(self):
-        print("=== mlready EDA Report ===")
+        print("=== quickprep EDA Report ===")
         
         print("\n🚨 WARNINGS (Potential Data Issues):")
         if not self.warnings:

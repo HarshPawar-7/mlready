@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mlready"
+name = "quickprep"
 version = "0.1.0"
 description = "An automated EDA and data cleaning pipeline for healthcare ML."
 authors = [{ name="Harsh" }]
